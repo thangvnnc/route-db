@@ -1,0 +1,23 @@
+{
+    "version": "1.0.0",
+    "tasks": [        
+        {
+            "label": "Open chrome",
+            "windows": {
+                "command": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+            },
+            "args": ["-incognito", "http://local.com"],
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Open ie",            
+            "windows": {
+                "command": "C:\\Program Files\\internet explorer\\iexplore.exe"
+            },
+            "args": ["-private", "http://local.com"],
+            "group": "build",
+            "problemMatcher": []
+        }
+    ]
+}
